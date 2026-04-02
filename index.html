@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NF21K21VFF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NF21K21VFF');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kevin Peramallee | Portfolio Développeur</title>
@@ -10,27 +19,27 @@
 <body>
 
   <header class="portfolio-header">
-  <div class="header-content">
-    <img src="images/moi .jpeg" alt="Photo de Kevin Peramallee" class="profile-pic">
+    <div class="header-content">
+      <img src="images/moi .jpeg" alt="Photo de Kevin Peramallee" class="profile-pic">
 
-    <div class="header-text">
-      <h1>Kevin <span class="highlight">Peramallee.</span></h1>
-      <p class="job-title" id="typewriter">Développeur Web | HTML • CSS • Ruby on Rails</p>
+      <div class="header-text">
+        <h1>Kevin <span class="highlight">Peramallee.</span></h1>
+        <p class="job-title" id="typewriter">Développeur Web | HTML • CSS • Ruby on Rails</p>
 
-      <div class="contact-info">
-        <a href="mailto:kevloevinnoah@gmail.com">
-          <i class="fa-solid fa-envelope"></i> kevloevinnoah@gmail.com
-        </a>
-        <a href="tel:+33769651361">
-          <i class="fa-solid fa-phone"></i> 07 69 65 13 61
-        </a>
-        <a href="https://linkedin.com/in/ton-profil" target="_blank">
-          <i class="fa-brands fa-linkedin"></i> LinkedIn
-        </a>
+        <div class="contact-info">
+          <a href="mailto:kevloevinnoah@gmail.com">
+            <i class="fa-solid fa-envelope"></i> kevloevinnoah@gmail.com
+          </a>
+          <a href="tel:+33769651361">
+            <i class="fa-solid fa-phone"></i> 07 69 65 13 61
+          </a>
+          <a href="https://linkedin.com/in/ton-profil" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
   <main class="container">
     <section class="about-section">
@@ -58,64 +67,61 @@
     <div class="projects-grid">
 
       <article class="project-card">
-  <div class="card-image">
-    <img src="images/alpaga.jpeg" alt="Ambiance chaleureuse de l'Atelier d'Isabelle" class="project-screenshot">
-  </div>
-
-  <div class="card-content">
-    <h3>À l'Atelier d'Isabelle</h3>
-    <p>Site vitrine pour une artisane de laine d'alpaga. Intégration de carrousels JS personnalisés.</p>
-    <div class="tags">
-      <span>HTML/CSS</span><span>JavaScript</span><span>Git</span>
-    </div>
-    <div class="links">
-      <a href="https://github.com/kevin59800/atelier-isabelle" target="_blank" class="btn">
-        <i class="fa-brands fa-github"></i> Voir le Code
-      </a>
-    </div>
-  </div>
-</article>
-
-      <article class="project-card">
-  <div class="card-image">
-    <img src="images/cvrepresentation.jpeg" alt="Illustration de mon parcours professionnel" class="project-screenshot">
-  </div>
-
-  <div class="card-content">
-    <h3>Mon CV Interactif</h3>
-    <p>Ma présentation professionnelle codée en pur HTML/CSS pour une rapidité maximale.</p>
-    <div class="tags">
-      <span>HTML5</span><span>CSS3</span><span>Responsive</span>
-    </div>
-    <div class="links">
-      <a href="javascript:void(0)" class="btn" onclick="document.getElementById('cvModal').style.display='block'">
-        <i class="fa-solid fa-file-pdf"></i> Voir le CV
-      </a>
-    </div>
-  </div>
-</article>
+        <div class="card-image">
+          <img src="images/alpaga.jpeg" alt="Ambiance chaleureuse de l'Atelier d'Isabelle" class="project-screenshot">
+        </div>
+        <div class="card-content">
+          <h3>À l'Atelier d'Isabelle</h3>
+          <p>Site vitrine pour une artisane de laine d'alpaga. Intégration de carrousels JS personnalisés.</p>
+          <div class="tags">
+            <span>HTML/CSS</span><span>JavaScript</span><span>Git</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/kevin59800/atelier-isabelle" target="_blank" class="btn">
+              <i class="fa-brands fa-github"></i> Voir le Code
+            </a>
+          </div>
+        </div>
+      </article>
 
       <article class="project-card">
-  <div class="card-image">
-    <img src="images/fullstack.jpeg" alt="Schéma Application Full Stack" class="project-screenshot">
-  </div>
+        <div class="card-image">
+          <img src="images/cvrepresentation.jpeg" alt="Illustration de mon parcours professionnel" class="project-screenshot">
+        </div>
+        <div class="card-content">
+          <h3>Mon CV Interactif</h3>
+          <p>Ma présentation professionnelle codée en pur HTML/CSS pour une rapidité maximale.</p>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>Responsive</span>
+          </div>
+          <div class="links">
+            <a href="javascript:void(0)" class="btn" onclick="document.getElementById('cvModal').style.display='block'">
+              <i class="fa-solid fa-file-pdf"></i> Voir le CV
+            </a>
+          </div>
+        </div>
+      </article>
 
-  <div class="card-content">
-    <h3>Organizer (Rails)</h3>
-    <p>Application de gestion de tâches et d'organisation avec architecture MVC et PostgreSQL.</p>
-    <div class="tags">
-      <span>Ruby on Rails</span><span>Postgres</span><span>Backend</span>
-    </div>
-    <div class="links">
-      <a href="javascript:void(0)" class="btn" onclick="document.getElementById('videoModal').style.display='block'">
-        <i class="fa-solid fa-circle-play"></i> Démo Vidéo
-      </a>
-      <a href="https://github.com/kevin59800/Organizer" target="_blank" class="btn-outline">
-        <i class="fa-brands fa-github"></i> Code
-      </a>
-    </div>
-  </div>
-</article>
+      <article class="project-card">
+        <div class="card-image">
+          <img src="images/fullstack.jpeg" alt="Schéma Application Full Stack" class="project-screenshot">
+        </div>
+        <div class="card-content">
+          <h3>Organizer (Rails)</h3>
+          <p>Application de gestion de tâches et d'organisation avec architecture MVC et PostgreSQL.</p>
+          <div class="tags">
+            <span>Ruby on Rails</span><span>Postgres</span><span>Backend</span>
+          </div>
+          <div class="links">
+            <a href="javascript:void(0)" class="btn" onclick="document.getElementById('videoModal').style.display='block'">
+              <i class="fa-solid fa-circle-play"></i> Démo Vidéo
+            </a>
+            <a href="https://github.com/kevin59800/Organizer" target="_blank" class="btn-outline">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </article>
 
     </div>
   </main>
